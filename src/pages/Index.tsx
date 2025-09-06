@@ -198,7 +198,7 @@ const Index = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button 
-                  onClick={() => scrollToSection('booking')}
+                  onClick={() => scrollToSection('services')}
                   className="btn-primary text-lg px-8 py-4 h-auto"
                 >
                   Book Now
