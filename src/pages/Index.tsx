@@ -203,13 +203,13 @@ const Index = () => {
                 >
                   Book Now
                 </Button>
-                <Button 
-                  onClick={() => scrollToSection('portfolio')}
-                  variant="outline" 
-                  className="btn-outline-primary text-lg px-8 py-4 h-auto"
-                >
-                  View Portfolio
-                </Button>
+               <Button
+  onClick={() => scrollToSection('portfolio')}
+  variant="outline"
+  className="text-lg px-8 py-4 h-auto bg-[#cfbdaf] text-black hover:opacity-90"
+>
+  View Portfolio
+</Button>
               </div>
             </div>
 
