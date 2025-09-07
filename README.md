@@ -1,58 +1,73 @@
-# Project Build Guide
+# 💄 Emmanuelly Mariz - Makeup Portfolio Website
 
-## Tech Stack
+A modern and responsive portfolio website for professional makeup artist **Emmanuelly Mariz**.  
+Built with **React, TypeScript, Vite, TailwindCSS, and shadcn/ui**, deployed on **Vercel**.
 
-This project is built using the following technologies:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## ✨ Features
 
-## Prerequisites
+- 🎨 **Modern Design** — Elegant rose-gold inspired theme, responsive for both mobile and desktop.  
+- 📸 **Portfolio Gallery** — Showcasing professional makeup works with hover effects.  
+- 💬 **Testimonials** — Real feedback from clients, displayed in styled cards.  
+- 📅 **Booking Form** — Integrated booking section with name, email, date, phone and service selection.  
+- 📱 **Responsive Layout** — Optimized for all devices (mobile-first).  
+- ⚡ **Fast & Lightweight** — Powered by Vite, React, and Tailwind.  
 
-Make sure your system has Node.js and npm installed.
+---
 
-We recommend using nvm to install Node.js: [nvm Installation Guide](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tech Stack
 
-## Install Dependencies
+- **React 18 + TypeScript**  
+- **Vite** (bundler)  
+- **TailwindCSS + shadcn/ui** (UI components & styling)  
+- **Lucide Icons** (for clean icons)  
+- **Recharts** (for analytics, if extended)  
+- **Vercel** (deployment)  
 
-```sh
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/arturwgnr/emma-makeup-portifolio.git
+cd emma-makeup-portifolio
+```
+
+### 2. Install dependencies
+```bash
 npm install
 ```
 
-## Development Server
-
-Start the development server with hot reload and instant preview:
-
-```sh
+### 3. Run the development server
+```bash
 npm run dev
 ```
 
-## Build Project
-
-Build for production:
-
-```sh
+### 4. Build for production
+```bash
 npm run build
 ```
 
-## Preview Build
+---
 
-Preview the built project:
+## 🌍 Deployment
 
-```sh
-npm run preview
-```
+The project is deployed on **Vercel** for production-ready hosting.  
+Every push to the `main` branch triggers an automatic redeploy.  
 
-## Project Structure
+🔗 Live Preview: [emma-makeup-portifolio.vercel.app](https://emma-makeup-portifolio.vercel.app)
 
-```
-src/
-├── components/     # UI Components
-├── pages/         # Page Components
-├── hooks/         # Custom Hooks
-├── lib/           # Utility Library
-└── main.tsx       # Application Entry Point
-```
+---
+
+## 📸 Preview
+
+![Preview Screenshot](./images/preview.png)
+
+---
+
+## 👤 Author
+
+Developed by **[Artur Wagner](https://github.com/arturwgnr)**  
+Makeup artistry by **Emmanuelly Mariz**
